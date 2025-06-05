@@ -26,7 +26,7 @@ connectDB();
 
 // CORS setup
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://voop-games-frontend.vercel.app',
   credentials: true,
 };
 app.use(cors(corsOptions));
